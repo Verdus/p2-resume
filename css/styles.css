@@ -5,3 +5,38 @@
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
 }
+nav{
+  list-style: none;
+  float: left;
+  margin: 0 10px 0 10px;
+}
+nav a:link{
+  background: teal;
+  color: blue;
+  text-decoration: none;
+  font-size: 30px;
+}
+nav a:visited{
+  background: yellow;
+  color: orange;
+  font-size: 30px;
+}
+nav a:hover{
+  color: black;
+  font-size: 32px;
+}
+nav a:active{
+  font-size: 34px;
+}
+a:focus{
+  border: 5px dashed;
+}
+body {font-family: 'Ruluko', sans-serif;
+}
+a { font-family: 'Sniglet', cursive;
+}
+h1 {text-align: center;
+}
+.center {
+	text-align: center;
+}
