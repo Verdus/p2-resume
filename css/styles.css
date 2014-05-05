@@ -38,3 +38,13 @@ h1 {text-align: center;
 .center {
 	text-align: center;
 }
+footer a:link{
+  text-decoration: none;
+  }
+footer p{
+  float:left;
+  background:orange;
+  border: 10px solid teal;
+  padding: 10px;
+  margin-left: 300px;
+}
