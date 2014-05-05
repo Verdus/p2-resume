@@ -1,5 +1,7 @@
 /* Your Website Styles */
-
+body{
+  background: url("../img/green_cup.png")
+}
 
 /* Show Grid */
 .showgrid {
@@ -11,25 +13,21 @@ nav{
   margin: 0 10px 0 10px;
 }
 nav a:link{
-  background: teal;
-  color: blue;
+  color: red;
   text-decoration: none;
-  font-size: 30px;
 }
 nav a:visited{
-  background: yellow;
-  color: orange;
-  font-size: 30px;
+  color: yellow;
 }
 nav a:hover{
-  color: black;
-  font-size: 32px;
+  color: orange;
+  font-size: 26px;
 }
 nav a:active{
-  font-size: 34px;
+  color:teal;
 }
 a:focus{
-  border: 5px dashed;
+  border: 3px dotted;
 }
 body {font-family: 'Ruluko', sans-serif;
 }
